@@ -1,13 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const Constants = {
-  OrgName: '4lch4',
-  ProjectName: 'Ansel-Home',
-  ProjectDescription:
-    'Ansel-Home is a website, built w/ Docusaurus, that provides documentation for the Ansel API.'
-}
-
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
