@@ -1,6 +1,17 @@
 {
-  "name": "ansel-home",
+  "name": "ansel-docs",
+  "displayName": "Ansel Docs",
+  "description": "The documentation site for Project Ansel, an API for interacting with S3/B2 compatible storage methods.",
   "version": "0.0.0",
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://alcha.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4lch4/Ansel-Docs.git"
+  },
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

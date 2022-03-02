@@ -6,16 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '4lch4/Ansel-Home',
+  title: 'Ansel-Docs',
   tagline:
-    'The homepage for Project Ansel, an API for interacting with S3/B2 compatible storage methods.',
+    'The documentation site for Project Ansel, an API for interacting with S3/B2 compatible storage methods.',
   url: 'https://docs.ansel.cloud',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: '4lch4',
-  projectName: 'Ansel-Home',
+  projectName: 'Ansel-Docs',
 
   presets: [
     [
@@ -26,7 +26,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/'
+            'https://github.com/4lch4/Ansel-Docs/tree/main/docs'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
@@ -39,9 +39,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '4lch4/Ansel-Home',
+        title: 'Ansel-Docs',
         logo: {
-          alt: 'Ansel-Home Logo',
+          alt: 'Ansel-Docs Logo',
           src: 'img/logo.svg'
         },
         items: [
@@ -52,7 +52,7 @@ const config = {
             label: 'Tutorial'
           },
           {
-            href: 'https://github.com/4lch4/Ansel-Home',
+            href: 'https://github.com/4lch4/Ansel-Docs',
             label: 'GitHub',
             position: 'right'
           }
@@ -88,7 +88,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/4lch4/Ansel-Home'
+                href: 'https://github.com/4lch4/Ansel-Docs'
               }
             ]
           }
