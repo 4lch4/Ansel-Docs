@@ -6,8 +6,11 @@ sidebar_position: 1
 
 Ansel is an API for interacting with an S3/B2 compatible storage method. To serve that end, the following endpoints are available to help manage the data (note that all endpoints are prefixed with `/api/v1`):
 
-!!! hint Asset IDs
-    The ID of an asset is simply an integer where the first asset in a folder has an ID of `0` and the next asset would be `1`. For example, if we uploaded a gif to folder `test` and it was the first asset, it would have a name of `/test/0.gif` where 0 is the ID and test is the folder name.
+:::info
+
+The ID of an asset is simply an integer where the first asset in a folder has an ID of `0` and the next asset would be `1`. For example, if we uploaded a gif to folder `test` and it was the first asset, it would have a name of `/test/0.gif` where 0 is the ID and test is the folder name.
+
+:::
 
 - `/:folderName`
   - **GET** — Get a random item from the folder with the given `:folderName`.
