@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Ansel-Docs',
+  title: 'Ansel Docs',
   tagline:
-    'The documentation site for Project Ansel, an API for interacting with S3/B2 compatible storage methods.',
+    'The documentation of Project Ansel, an API for interacting with S3/B2 compatible storage methods.',
   url: 'https://docs.ansel.cloud',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -39,9 +39,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Ansel-Docs',
+        title: 'Ansel Docs',
         logo: {
-          alt: 'Ansel-Docs Logo',
+          alt: 'Ansel Docs Logo',
           src: 'img/logo.svg'
         },
         items: [

@@ -2,46 +2,19 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Ansel is an API for interacting with an S3/B2 compatible storage method. To serve that end, the following endpoints are available to help manage the data (note that all endpoints are prefixed with `/api/v1`):
 
-## Getting Started
+!!! hint Asset IDs
+    The ID of an asset is simply an integer where the first asset in a folder has an ID of `0` and the next asset would be `1`. For example, if we uploaded a gif to folder `test` and it was the first asset, it would have a name of `/test/0.gif` where 0 is the ID and test is the folder name.
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- `/:folderName`
+  - **GET** — Get a random item from the folder with the given `:folderName`.
+    - The API will get the amount of items in the folder, then pick one at random to return.
+  - **POST** — Upload a new asset under `:folderName` and assign it the next ID in the sequence.
+- `/:folderName/:id`
+  - **GET** — Gets a specific item from the folder with the given `:folderName` that has the same `:id`.
+  - **POST** — Upload a new asset under the specific `:folderName` with the given `:id`.
+  - **PUT** — Update an existing asset under `:folderName` with an ID that matches `:id`.
+  - **DELETE** — Delete an existing asset under `:folderName` with an ID that matches `:id`.
