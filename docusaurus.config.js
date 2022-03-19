@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: 'Ansel Docs',
   tagline:
-    'The documentation of Project Ansel, an API for interacting with S3/B2 compatible storage methods.',
+    'The documentation of Project Ansel, an API for interacting with S3 compatible storage methods.',
   url: 'https://docs.ansel.cloud',
   baseUrl: '/',
   onBrokenLinks: 'throw',
