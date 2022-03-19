@@ -50,6 +50,7 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Tutorial'
+            label: 'Intro'
           },
           {
             href: 'https://github.com/4lch4/Ansel-Docs',
