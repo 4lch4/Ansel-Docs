@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/easy.svg').default,
     description: (
       <>
         Ansel was designed to be easy to use with a small number of endpoints
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Easy to Setup',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/project-setup.svg').default,
     description: (
       <>
         Ansel was also designed to be as easy as possible to set up. It uses
@@ -26,7 +26,7 @@ const FeatureList = [
   },
   {
     title: 'Extensible',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/toolbox.svg').default,
     description: (
       <>
         Lastly, Ansel is extensible. You can add your own routes, plugins,
