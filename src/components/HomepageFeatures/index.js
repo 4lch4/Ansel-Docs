@@ -8,28 +8,29 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Ansel was designed to be easy to use with a small number of endpoints
+        that are clearly defined.
       </>
     )
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Easy to Setup',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Ansel was also designed to be as easy as possible to set up. It uses
+        Docker to create a reproducible environment for the server and get it
+        up and running with a single command.
       </>
     )
   },
   {
-    title: 'Powered by React',
+    title: 'Extensible',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Lastly, Ansel is extensible. You can add your own routes, plugins,
+        or w/e else you'd like to add from the Koa ecosystem.
       </>
     )
   }
